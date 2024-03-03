@@ -190,7 +190,7 @@ public class MyFrame extends JFrame implements ActionListener {
                 User user1 = new User(imie, nazwisko, email, plec, dataUrodzenia, pesel);
                 XMLWriter.saveToXML(user1);
 
-                ImageIcon icon = new ImageIcon("Resources/img.png");
+                ImageIcon icon = new ImageIcon("PIU_cwiczenie_1/Resources/img.png");
                 int width = 40;
                 int height = 40;
                 Image img = icon.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);

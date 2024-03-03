@@ -8,7 +8,7 @@ public class XMLWriter {
 
     public static void saveToXML(User user) {
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Resources/user_data.xml"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("PIU_cwiczenie_1/Resources/user_data.xml"))) {
 
             writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
             writer.write("<User>\n");
